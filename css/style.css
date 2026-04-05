@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #593131;
+    display: flex;
+    justify-content: center;
+}
+
+.MenuGame{
+    margin-top: 2vh;
+    background-color: #D56638;
+    text-align: center;
+    background-color: #d36e3d; /* Laranja do centro */
+    border: 5px solid #7a3321; /* Borda marrom */
+    width: 300px;       
+    min-height: 400px;    
+    border-radius: 40px;  /* Cantos arredondados */
+    
+    box-shadow: 
+        inset 0 -8px 0 rgba(0, 0, 0, 0.2), /* Sombra interna na parte de baixo */
+        0 10px 20px rgba(0, 0, 0, 0.4);    /* Sombra externa no fundo */
+
+    /* Alinhamento do texto dentro do card */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.MenuGame h1{
+    color: whitesmoke;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.MenuOpcoes{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+}
+
+.Menubtn {
+    margin-top: 2vh;
+    margin-bottom: 1.5vh;
+    background: #EBBF9A; /* Cor do fundo do botão */
+    color: white; /* cor do texto do botão */
+    font-family: 'Fredoka', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 50px; /* Bordas arredondadas */
+    cursor: pointer;
+    transition: all 0.1s ease;
+
+    box-shadow: 
+        inset 0 4px 0 rgba(255, 255, 255, 0.4), /* Brilho interno superior */
+        0 6px 0 #b35f2d,                       /* Sombra sólida inferior (efeito 3D) */
+        0 8px 10px rgba(0, 0, 0, 0.3);         /* Sombra suave no chão */
+}
+
+/* Efeito de passar o mouse */
+.Menubtn:hover {
+    filter: brightness(1.1);
+}
